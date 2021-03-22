@@ -1,0 +1,31 @@
+{
+  "name": "potterverse-api",
+  "version": "1.0.0",
+  "description": "Wizarding World API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint ./src",
+    "pretty": "prettier --write '**/*.js' '!node_modules/**'"
+  },
+  "author": "Thacher Hussain",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "7.13.10",
+    "@babel/node": "7.13.10",
+    "@babel/preset-env": "7.13.10",
+    "eslint": "7.22.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-plugin-import": "2.22.1",
+    "nodemon": "2.0.7",
+    "prettier": "2.2.1"
+  },
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "8.2.0",
+    "express": "4.17.1",
+    "pg": "8.5.1",
+    "sequelize": "5.21.7"
+  }
+}
