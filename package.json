@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Wizarding World API",
   "main": "index.js",
+  "engines": {
+    "node": "14.15.3"
+  },
   "scripts": {
     "start": "nodemon --exec babel-node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
